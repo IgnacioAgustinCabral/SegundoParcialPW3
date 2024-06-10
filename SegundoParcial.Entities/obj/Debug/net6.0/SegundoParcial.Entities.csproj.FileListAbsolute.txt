@@ -1,0 +1,14 @@
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\bin\Debug\net6.0\SegundoParcial.Entities.deps.json
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\bin\Debug\net6.0\SegundoParcial.Entities.runtimeconfig.json
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\bin\Debug\net6.0\SegundoParcial.Entities.dll
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\bin\Debug\net6.0\SegundoParcial.Entities.pdb
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.csproj.AssemblyReference.cache
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.AssemblyInfoInputs.cache
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.AssemblyInfo.cs
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.dll
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\refint\SegundoParcial.Entities.dll
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.pdb
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.genruntimeconfig.cache
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\ref\SegundoParcial.Entities.dll
