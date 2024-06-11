@@ -18,16 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ignac/OneDrive/Desktop/SegundoParcial/SegundoParcial.Web/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/ignac/OneDrive/Desktop/SegundoParcial/SegundoParcial.Web/Views/Empleado/CreateEmpleado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cQ3JlYXRlRW1wbGVhZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ignac/OneDrive/Desktop/SegundoParcial/SegundoParcial.Web/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ignac/OneDrive/Desktop/SegundoParcial/SegundoParcial.Web/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/Users/ignac/OneDrive/Desktop/SegundoParcial/SegundoParcial.Web/Views/Empleado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ignac/OneDrive/Desktop/SegundoParcial/SegundoParcial.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

@@ -1,0 +1,28 @@
+﻿@model SegundoParcial.Entities.EF.Empleado
+
+@{
+}
+
+<h2>Crear Empleado</h2>
+
+<form action="/Empleado/Create" method="POST">
+    <div class="form-group">
+        <label for="NombreCompleto">Nombre Completo</label>
+        <input type="text" class="form-control" id="NombreCompleto" name="NombreCompleto" placeholder="Escriba su nombre...">
+    </div>
+
+    <div>
+        <select name="IdSucursal">
+            @foreach (var item in ViewBag.Sucursales)
+            {
+                <option value="@item.IdSucursal">@item.Direccion</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear Empleado</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

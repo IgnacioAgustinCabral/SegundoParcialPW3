@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SegundoParcial.Entities\SegundoParcial.Entities.csproj" />
+    <ProjectReference Include="..\SegundoParcial.Logica\SegundoParcial.Logica.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,8 +11,8 @@ namespace SegundoParcial.Entities.EF
         }
 
         public int IdSucursal { get; set; }
-        public string? Direccion { get; set; }
-        public bool? Eliminada { get; set; }
+        public string Direccion { get; set; } = null!;
+        public bool Eliminada { get; set; }
 
         public virtual ICollection<Empleado> Empleados { get; set; }
     }

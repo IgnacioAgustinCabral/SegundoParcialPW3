@@ -36,11 +36,12 @@ namespace SegundoParcial.Entities.EF
 
                 entity.ToTable("Empleado");
 
-                entity.Property(e => e.NombreCompleto).HasMaxLength(100);
+                entity.Property(e => e.NombreCompleto).HasMaxLength(50);
 
                 entity.HasOne(d => d.IdSucursalNavigation)
                     .WithMany(p => p.Empleados)
                     .HasForeignKey(d => d.IdSucursal)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Empleado_Sucursal");
             });
 
@@ -50,7 +51,7 @@ namespace SegundoParcial.Entities.EF
 
                 entity.ToTable("Sucursal");
 
-                entity.Property(e => e.Direccion).HasMaxLength(100);
+                entity.Property(e => e.Direccion).HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);

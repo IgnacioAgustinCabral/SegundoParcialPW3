@@ -12,3 +12,4 @@ C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug
 C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.pdb
 C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.genruntimeconfig.cache
 C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\ref\SegundoParcial.Entities.dll
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Entities\obj\Debug\net6.0\SegundoParcial.Entities.sourcelink.json

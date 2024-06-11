@@ -1,7 +1,14 @@
+using SegundoParcial.Entities.EF;
+using SegundoParcial.Logica.Servicios;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<_2doParcialContext>();
+builder.Services.AddScoped<IEmpleadoService, EmpleadoService>();
+builder.Services.AddScoped<ISucursalService, SucursalService>();
 
 var app = builder.Build();
 
@@ -22,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Empleado}/{action=Index}/{id?}");
 
 app.Run();

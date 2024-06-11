@@ -781,6 +781,19 @@
         "runtime": {
           "bin/placeholder/SegundoParcial.Entities.dll": {}
         }
+      },
+      "SegundoParcial.Logica/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SegundoParcial.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SegundoParcial.Logica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SegundoParcial.Logica.dll": {}
+        }
       }
     }
   },
@@ -1981,12 +1994,18 @@
       "type": "project",
       "path": "../SegundoParcial.Entities/SegundoParcial.Entities.csproj",
       "msbuildProject": "../SegundoParcial.Entities/SegundoParcial.Entities.csproj"
+    },
+    "SegundoParcial.Logica/1.0.0": {
+      "type": "project",
+      "path": "../SegundoParcial.Logica/SegundoParcial.Logica.csproj",
+      "msbuildProject": "../SegundoParcial.Logica/SegundoParcial.Logica.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "SegundoParcial.Entities >= 1.0.0"
+      "SegundoParcial.Entities >= 1.0.0",
+      "SegundoParcial.Logica >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2024,6 +2043,9 @@
           "projectReferences": {
             "C:\\Users\\ignac\\OneDrive\\Desktop\\SegundoParcial\\SegundoParcial.Entities\\SegundoParcial.Entities.csproj": {
               "projectPath": "C:\\Users\\ignac\\OneDrive\\Desktop\\SegundoParcial\\SegundoParcial.Entities\\SegundoParcial.Entities.csproj"
+            },
+            "C:\\Users\\ignac\\OneDrive\\Desktop\\SegundoParcial\\SegundoParcial.Logica\\SegundoParcial.Logica.csproj": {
+              "projectPath": "C:\\Users\\ignac\\OneDrive\\Desktop\\SegundoParcial\\SegundoParcial.Logica\\SegundoParcial.Logica.csproj"
             }
           }
         }

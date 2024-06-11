@@ -65,3 +65,6 @@ C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\obj\Debug\net6
 C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\obj\Debug\net6.0\SegundoP.88A6B690.Up2Date
 C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\bin\Debug\net6.0\Humanizer.dll
 C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\obj\Debug\net6.0\SegundoParcial.Web.sourcelink.json
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\bin\Debug\net6.0\SegundoParcial.Logica.dll
+C:\Users\ignac\OneDrive\Desktop\SegundoParcial\SegundoParcial.Web\bin\Debug\net6.0\SegundoParcial.Logica.pdb
