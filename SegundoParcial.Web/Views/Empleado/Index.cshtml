@@ -1,8 +1,41 @@
-﻿@{
+﻿@model List<SegundoParcial.Entities.EF.Empleado>
+@{
 }
 
 <h2>Empleados</h2>
 
-<form action="" method="POST">
+<form action="/Empleado/Index" method="POST">
+    <select name="IdSucursal">
+        @foreach (var item in ViewBag.Sucursales)
+        {
+            if (ViewBag.IdSucursalSeleccionada == item.IdSucursal)
+            {
+                <option value="@item.IdSucursal" selected>@item.Direccion</option>
+            }
+            else
+            {
+                <option value="@item.IdSucursal">@item.Direccion</option>
+            }
+        }
+    </select>
 
-</form>
+    <button type="submit">Filtrar</button>
+    </form>
+<table>
+    <tr>
+        <th>Id Empleado</th>
+        <th>Nombre Completo</th>
+        <th>Sucursal</th>
+        <th>Direccion Sucursal</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.IdEmpleado)</td>
+            <td>@Html.DisplayFor(m => item.NombreCompleto)</td>
+            <td>@Html.DisplayFor(m => item.IdSucursal)</td>
+            <td>@Html.DisplayFor(m => item.IdSucursalNavigation.Direccion)</td>
+        </tr>
+    }
+
+</table>

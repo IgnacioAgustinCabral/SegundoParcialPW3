@@ -15,9 +15,20 @@ public class EmpleadoController : Controller
         _sucursalService = sucursalService;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(int? IdSucursal)
     {
-        return View();
+        ViewBag.Sucursales = _sucursalService.GetSucursalesNoEliminadas();
+        ViewBag.IdSucursalSeleccionada = IdSucursal;
+        if (IdSucursal.HasValue)
+        {
+            var empleadosPorSucursal = _empleadoService.getEmpleadosPorSucursal(IdSucursal.Value);
+            return View(empleadosPorSucursal);
+        } else
+        {
+            var empleados = _empleadoService.getEmpleados();
+            return View(empleados);
+        }
+        
     }
 
     [HttpGet]
@@ -30,10 +41,12 @@ public class EmpleadoController : Controller
     [HttpPost]
     public IActionResult Create(Empleado empleado)
     {
-        Console.WriteLine(empleado);
+        Console.WriteLine(empleado.IdSucursal);
+        ViewBag.Sucursales = _sucursalService.GetSucursalesNoEliminadas();
+
         if (!ModelState.IsValid)
         {
-            return RedirectToAction("CreateEmpleado");
+            return RedirectToAction("Create");
         }
         _empleadoService.createEmpleado(empleado);
 

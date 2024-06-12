@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SegundoParcial.Logica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56d80755b1a4c791cc03cf1b571770e197a0fb89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18a89f0159398a7e63597c19ee9f1a8bdb0111fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SegundoParcial.Logica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SegundoParcial.Logica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

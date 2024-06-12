@@ -9,6 +9,6 @@ namespace SegundoParcial.Entities.EF
         public string NombreCompleto { get; set; } = null!;
         public int IdSucursal { get; set; }
 
-        public virtual Sucursal IdSucursalNavigation { get; set; } = null!;
+        public virtual Sucursal? IdSucursalNavigation { get; set; }
     }
 }
